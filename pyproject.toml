@@ -1,0 +1,19 @@
+[project]
+name = "provider-parser"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Emhope",email = "michailopalev02@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "selenium (>=4.28.1,<5.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
